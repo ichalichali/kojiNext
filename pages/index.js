@@ -18,8 +18,8 @@ export default function Home() {
       <main>
         <MyHeader />
         <MyPromo />
-        <MyFooter />
         <MyCards />
+        <MyFooter />
       </main>
     </div>
   );
