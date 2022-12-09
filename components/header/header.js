@@ -159,12 +159,12 @@ export default function MyHeader() {
                                 aria-hidden="true"
                               />
                               <div className="ml-4">
-                                <p className="text-base font-medium text-gray-900">
+                                <span className="text-base font-medium text-gray-900">
                                   {item.name}
-                                </p>
-                                <p className="mt-1 text-sm text-gray-500">
+                                </span>
+                                <span className="mt-1 text-sm text-gray-500">
                                   {item.description}
-                                </p>
+                                </span>
                               </div>
                             </a>
                           ))}
@@ -247,12 +247,12 @@ export default function MyHeader() {
                                 aria-hidden="true"
                               />
                               <div className="ml-4">
-                                <p className="text-base font-medium text-gray-900">
+                                <span className="text-base font-medium text-gray-900">
                                   {item.name}
-                                </p>
-                                <p className="mt-1 text-sm text-gray-500">
+                                </span>
+                                <span className="mt-1 text-sm text-gray-500">
                                   {item.description}
-                                </p>
+                                </span>
                               </div>
                             </a>
                           ))}
@@ -394,12 +394,12 @@ export default function MyHeader() {
                 >
                   Sign up
                 </a>
-                <p className="mt-6 text-center text-base font-medium text-gray-500">
+                <span className="mt-6 text-center text-base font-medium text-gray-500">
                   Existing customer?{" "}
                   <a href="#" className="text-indigo-600 hover:text-indigo-500">
                     Sign in
                   </a>
-                </p>
+                </span>
               </div>
             </div>
           </div>

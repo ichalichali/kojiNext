@@ -4,6 +4,7 @@ import styles from "../styles/Home.module.css";
 import MyHeader from "../components/header/header";
 import MyPromo from "../components/promo/promo";
 import MyCards from "../components/cards/cards";
+import MyFooter from "../components/footer/footer";
 
 export default function Home() {
   return (
@@ -19,6 +20,8 @@ export default function Home() {
       <main>
         <MyHeader />
         <MyPromo />
+        <MyFooter />
+        <MyCards />
       </main>
     </div>
   );
