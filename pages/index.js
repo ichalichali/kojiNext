@@ -1,6 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
 import MyHeader from "../components/header/header";
 import MyPromo from "../components/promo/promo";
 import MyCards from "../components/cards/cards";
